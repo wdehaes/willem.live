@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Rock 3D';
+    src: url('/assets/fonts/Rock3D-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Rock3D-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-rock {
+    font-family: 'Rock 3D';
+    font-weight: normal;
+    font-style: normal;
+}
