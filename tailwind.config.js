@@ -6,13 +6,24 @@ export default {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./error.vue",
+    "./app.vue",
   ],
   theme: {
-    fontFamily: {
-      sans: ['acumin-variable', 'sans-serif'],
+    plugins: [],
+    extend: {
+      colors: {
+        'zinc-300': '#DBDBDB',
+        'stone-100': '#F7EFEE',
+        'fuchsia-900': '#7E1C75',
+        'indigo-950': '#130D50'
+      },
+      fontFamily: {
+        sans: ['acumin-variable', 'sans-serif'],
+      },
     },
   },
-  plugins: [],
-  extend: {},
+  corePlugins: {
+    fontWeight: false
+  },
 }
 

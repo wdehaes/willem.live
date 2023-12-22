@@ -16,3 +16,11 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.font-extrabold {
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800;
+}
+
+.font-semibold {
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 600;
+}

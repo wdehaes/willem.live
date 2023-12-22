@@ -8,7 +8,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxtjs/tailwindcss"],
   app: {
     head: {
       meta: [
