@@ -17,6 +17,6 @@
       <Logo />
     </div>
   </div>
-  <HorizontalLine />
-  <Filters />
+  <HorizontalLine class="mb-3" />
+  <Filters class="mb-6" />
 </template>

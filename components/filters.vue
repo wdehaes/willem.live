@@ -6,20 +6,33 @@ const emit = defineEmits<{
 
 const activeFilter = ref(Filter.All);
 const fontClass = computed(() => {});
+
+const fontWeight = (filter: Filter) => {
+  return filter === unref(activeFilter)
+    ? "font-extrabold text-3xl"
+    : "font-normal text-[28px]";
+};
 </script>
 
 <template>
   <div class="flex flex-row w-full justify-between">
-    <div class="flex flex-row">
+    <div class="flex flex-row justify-between basis-7/12">
       <template v-for="filter in Filter">
-        <div
-          class="text-indigo-950 text-3xl font-extrabold font-sans leading-7"
+        <button
+          class="text-indigo-950 font-sans leading-7 flex-none"
+          :class="fontWeight(filter)"
+          @click="activeFilter = filter"
         >
           {{ filter }}
-        </div>
+        </button>
       </template>
     </div>
-    <div class="flex flex-row"></div>
+    <div class="flex flex-row basis-5/12 justify-end">
+      <span
+        class="text-right text-indigo-950 text-[28px] leading-7 font-semibold font-sans"
+      >
+        Resume // PDF
+      </span>
+    </div>
   </div>
 </template>
-~/types/filter
