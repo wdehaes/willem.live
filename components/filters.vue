@@ -12,6 +12,10 @@ const fontWeight = (filter: Filter) => {
     ? "font-extrabold text-3xl"
     : "font-normal text-[28px]";
 };
+
+watch(activeFilter, (newActiveFilter) => {
+  emit("filter", newActiveFilter);
+});
 </script>
 
 <template>
