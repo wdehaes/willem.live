@@ -33,12 +33,12 @@ const updateColorIndex = () => {
   <div class="flex flex-row justify-center items-center">
     <NuxtLink to="/">
       <span
-        class="text-[250px] font-normal font-rock leading-[280px] transition-colors"
+        class="text-[128px] lg:text-[250px] font-normal font-rock leading-[180px] lg:leading-[280px] transition-colors"
         :class="activeW"
         >W</span
       >
       <span
-        class="text-[250px] font-normal font-rock leading-[280px] transition-colors"
+        class="text-[128px] lg:text-[250px] font-normal font-rock leading-[180px] lg:leading-[280px] transition-colors"
         :class="activeD"
         >D</span
       >

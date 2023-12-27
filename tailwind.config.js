@@ -13,10 +13,12 @@ export default {
     extend: {
       colors: {
         'zinc-300': '#DBDBDB',
+        'zinc-700': '#3C3B45',
         'stone-100': '#F7EFEE',
         'fuchsia-900': '#7E1C75',
         'indigo-950': '#130D50',
         'orange-600': '#FF5B00',
+        'neutral-500': '#6F6F6F'
 
       },
       fontFamily: {

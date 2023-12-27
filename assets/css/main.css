@@ -24,3 +24,6 @@
 .font-semibold {
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 600;
 }
+.font-normal {
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 300;
+}

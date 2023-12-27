@@ -10,7 +10,7 @@ const fontClass = computed(() => {});
 const fontWeight = (filter: Filter) => {
   return filter === unref(activeFilter)
     ? "font-extrabold text-3xl"
-    : "font-normal text-[28px]";
+    : "font-semibold text-[28px]";
 };
 
 watch(activeFilter, (newActiveFilter) => {
