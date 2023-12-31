@@ -25,5 +25,10 @@
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 600;
 }
 .font-normal {
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400;
+}
+
+.font-light {
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 300;
 }
+

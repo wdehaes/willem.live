@@ -2,6 +2,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/content"],
+  content: {
+    markdown: {
+      tags: { "iframe-c": "IframeC" },
+    },
+  },
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {

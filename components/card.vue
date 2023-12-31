@@ -3,13 +3,33 @@ const props = defineProps<{
   article: any;
 }>();
 
-const widthClass = computed(() => `basis-${props.article.width * 3}/12`);
+const widthClass = computed(() => {
+  switch (props.article.width) {
+    case 1:
+      return "col-span-full lg:col-span-3";
+    case 2:
+      return "col-span-full lg:col-span-6";
+    default:
+      return "";
+  }
+});
+
+const imageName = computed(() => {
+  if (
+    ["right-to-counsel", "shanghai", "the-white-knight"].includes(
+      props.article.id
+    )
+  ) {
+    return "thumbnail.jpeg";
+  }
+  return "thumbnail";
+});
 </script>
 
 <template>
-  <div class="flex flex-col grow-0 mb-4 lg:mb-10" :class="widthClass">
+  <div class="flex flex-col mb-4 lg:mb-10" :class="widthClass">
     <NuxtLink :to="`/${article.id}`">
-      <ImgC name="thumbnail" :project="article.id" bottom-margin="mb-4" />
+      <ImgC :name="imageName" :project="article.id" bottom-margin="mb-4" />
       <p
         class="text-indigo-950 text-2xl font-extrabold font-sans leading-7 mb-2"
       >

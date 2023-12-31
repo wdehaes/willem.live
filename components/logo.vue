@@ -1,4 +1,13 @@
 <script setup lang="ts">
+const props = withDefaults(
+  defineProps<{
+    small?: boolean;
+  }>(),
+  {
+    small: false,
+  }
+);
+
 const activeColorIndex = ref(0);
 const wColors = [
   "text-fuchsia-900",
@@ -27,19 +36,25 @@ const updateColorIndex = () => {
     activeColorIndex.value = newValue;
   }
 };
+
+const textSizeClass = computed(() => {
+  return props.small
+    ? "text-9xl leading-none"
+    : "text-[128px] lg:text-[250px] leading-[180px] lg:leading-[280px] ";
+});
 </script>
 
 <template>
   <div class="flex flex-row justify-center items-center">
     <NuxtLink to="/">
       <span
-        class="text-[128px] lg:text-[250px] font-normal font-rock leading-[180px] lg:leading-[280px] transition-colors"
-        :class="activeW"
+        class="font-normal font-rock transition-colors"
+        :class="[activeW, textSizeClass]"
         >W</span
       >
       <span
-        class="text-[128px] lg:text-[250px] font-normal font-rock leading-[180px] lg:leading-[280px] transition-colors"
-        :class="activeD"
+        class="font-normal font-rock transition-colors"
+        :class="[activeD, textSizeClass]"
         >D</span
       >
     </NuxtLink>

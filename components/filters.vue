@@ -35,7 +35,9 @@ watch(activeFilter, (newActiveFilter) => {
       <span
         class="text-right text-indigo-950 text-[28px] leading-7 font-semibold font-sans"
       >
-        Resume // PDF
+        <NuxtLink to="/pdf/Resume '23 Willem Dehaes.pdf" target="_blank"
+          >Resume // PDF</NuxtLink
+        >
       </span>
     </div>
   </div>
