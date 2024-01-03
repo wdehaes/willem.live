@@ -2,7 +2,6 @@
 const route = useRoute();
 
 const projectId = route.path.split("/")[1];
-console.log(route.path);
 </script>
 
 <template>

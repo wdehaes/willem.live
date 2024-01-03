@@ -12,14 +12,9 @@ const currentProjectIndex = computed(() =>
 );
 
 const filteredNavigation = computed(() => {
-  console.log(unref(currentProjectIndex));
   const pIndex1 = nextProjectIndex(unref(currentProjectIndex));
-
   const pIndex2 = nextProjectIndex(pIndex1);
   const pIndex3 = nextProjectIndex(pIndex2);
-  console.log(pIndex1);
-  console.log(pIndex2);
-  console.log(pIndex3);
   return [pIndex1, pIndex2, pIndex3].map((i) => unref(navigation)[i]);
 });
 
