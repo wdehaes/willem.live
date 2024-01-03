@@ -2,7 +2,7 @@
 title: Roots Studio
 navigation:
   id: "rootsstudio"
-  description: "Over the past few years I coded for an art licensing studio, paying artists more than fair trade and protecting their rights."
+  description: "Roots Studio works with artists in India and China, digitizes their art and stories and licenses them to global fashion brands..."
   width: 2
   tag: "engineering"
   order: 2
@@ -15,8 +15,12 @@ navigation:
 {{ $doc.title }}
 
 #description
-Over the past few years I coded for an art licensing studio, paying artists more than fair trade and protecting their rights.
+[Roots Studio](https://rootsstudio.co/) works with artists in India and China, digitizes their art and stories and licenses them to global fashion brands. Profits are shared fairly with the artists and their communities.
 
 #tag
 ENGINEERING
+::
+
+::body-c
+WIP
 ::
