@@ -5,12 +5,12 @@ navigation:
   description: A dinosaur comes running around the corner of South 2nd Street, followed by Super Mario and a bespectacled aviator. Soon, two dozen trick-or-treaters have gathered in front of the garden gate...
   width: 1
   tag: reporting
-  order: 3
+  order: 4
 ---
 
 ::header-c
 #image
-:img-c{name="thumbnail" project="kizzy" bottom-margin="mb-3"}
+:img-c{name="thumbnail" project="haunted-garden" bottom-margin="mb-3"}
 
 #title
 {{ $doc.title }}

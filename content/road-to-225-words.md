@@ -5,7 +5,7 @@ navigation:
   description: In 2005, after working for 15 years as a court reporter at the Bronx Criminal Court, Oscar Garzon began teaching others the art of documenting what judges, lawyers, defendants and witnesses say during court proceedings...
   width: 1
   tag: reporting
-  order: 2
+  order: 3
 ---
 
 ::header-c

@@ -13,7 +13,9 @@
       >
         <slot name="description" />
       </div>
-      <div class="text-neutral-500 text-base font-light font-sans mb-12">
+      <div
+        class="text-neutral-500 text-base font-light font-sans mb-3 lg:mb-12"
+      >
         <slot name="tag" />
       </div>
     </div>

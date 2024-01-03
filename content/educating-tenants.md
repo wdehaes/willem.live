@@ -5,7 +5,7 @@ navigation:
   description: Ciara Ward was doing her laundry in Bedford-Stuyvesant on a recent Sunday afternoon. Ward, who lives around the corner from the laundromat, is fighting an eviction case brought by her landlord...
   width: 2
   tag: reporting
-  order: 4
+  order: 2
 ---
 
 ::header-c

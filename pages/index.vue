@@ -46,7 +46,7 @@ const filteredNavigation = computed(() => {
     </div>
   </div>
   <HorizontalLine class="mb-3" />
-  <Filters class="mb-6 hidden lg:flex" @filter="filterArticles" />
+  <Filters @filter="filterArticles" />
   <div>
     <TransitionGroup tag="div" name="fade" class="grid grid-cols-12 gap-4">
       <template v-for="project in filteredNavigation" :key="project.id">
