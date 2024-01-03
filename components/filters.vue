@@ -74,8 +74,8 @@ watch(activeFilter, (newActiveFilter) => {
       <span
         class="text-right text-indigo-950 text-[28px] leading-7 font-semibold font-sans"
       >
-        <NuxtLink to="/pdf/Resume '23 Willem Dehaes.pdf" target="_blank"
-          >Resume // PDF</NuxtLink
+        <a href="/pdf/Resume Willem Dehaes.pdf" target="_blank"
+          >Resume // PDF</a
         >
       </span>
     </div>
@@ -119,8 +119,8 @@ watch(activeFilter, (newActiveFilter) => {
       <span
         class="text-right text-indigo-950 text-[28px] leading-7 font-semibold font-sans"
       >
-        <NuxtLink to="/pdf/Resume '23 Willem Dehaes.pdf" target="_blank"
-          >Resume // PDF</NuxtLink
+        <a href="/pdf/Resume Willem Dehaes.pdf" target="_blank"
+          >Resume // PDF</a
         >
       </span>
     </div>

@@ -13,9 +13,7 @@
         >
       </p>
       <p>
-        <NuxtLink to="/pdf/Resume '23 Willem Dehaes.pdf" target="_blank"
-          >Resume</NuxtLink
-        >
+        <a href="/pdf/Resume Willem Dehaes.pdf" target="_blank">Resume</a>
       </p>
       <p><a href="https://github.com/wdehaes">GitHub</a></p>
     </div>
