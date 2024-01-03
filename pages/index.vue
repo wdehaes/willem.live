@@ -2,43 +2,26 @@
 import type { NavItem } from "@nuxt/content/dist/runtime/types";
 import { Filter } from "~/types/filter";
 
-const order: Record<string, number> = {
-  engineering: 100,
-  data: 200,
-  reporting: 300,
-  personal: 400,
-};
 const filterArticles = (value: Filter) => {
   activeFilter.value = value;
 };
 
-const { data: navigation } = await useAsyncData("navigation", () =>
-  fetchContentNavigation()
-);
-
-const compare = (a: NavItem, b: NavItem) => {
-  return order[a.tag as string] + a.order - (order[b.tag as string] + b.order);
-};
-const orderedNav = computed(() => {
-  const nav = Array.from(unref(navigation)!);
-  nav.sort(compare);
-  return nav;
-});
+const navigation: Ref<NavItem[]> = useState("navigation");
 
 const activeFilter = ref(Filter.All);
 
 const filteredNavigation = computed(() => {
   switch (unref(activeFilter)) {
     case Filter.All:
-      return unref(orderedNav);
+      return unref(navigation);
     case Filter.Engineering:
-      return unref(orderedNav)!.filter((item) => item.tag === "engineering");
+      return unref(navigation).filter((item) => item.tag === "engineering");
     case Filter.Data:
-      return unref(orderedNav)!.filter((item) => item.tag === "data");
+      return unref(navigation).filter((item) => item.tag === "data");
     case Filter.Reporting:
-      return unref(orderedNav)!.filter((item) => item.tag === "reporting");
+      return unref(navigation).filter((item) => item.tag === "reporting");
     case Filter.Personal:
-      return unref(orderedNav)!.filter((item) => item.tag === "personal");
+      return unref(navigation).filter((item) => item.tag === "personal");
   }
 });
 </script>
@@ -66,8 +49,8 @@ const filteredNavigation = computed(() => {
   <Filters class="mb-6 hidden lg:flex" @filter="filterArticles" />
   <div>
     <TransitionGroup tag="div" name="fade" class="grid grid-cols-12 gap-4">
-      <template v-for="article in filteredNavigation" :key="article.id">
-        <Card :article="article" />
+      <template v-for="project in filteredNavigation" :key="project.id">
+        <Card :project="project" />
       </template>
     </TransitionGroup>
   </div>

@@ -3,14 +3,14 @@ title: Residential Evictions and Right To Counsel
 navigation:
   id: right-to-counsel
   description: Interactive map showing eviction and household financial data per NYC neighborhood.
-  width: 1
+  width: 2
   tag: data
   order: 1
 ---
 
 ::header-c
 #image
-:img-c{name="thumbnail.jpeg" project="right-to-counsel" bottom-margin="mb-3"}
+:img-c{name="thumbnail" project="right-to-counsel" bottom-margin="mb-3"}
 
 #title
 {{ $doc.title }}

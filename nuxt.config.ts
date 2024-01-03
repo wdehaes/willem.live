@@ -7,6 +7,9 @@ export default defineNuxtConfig({
       tags: { "iframe-c": "IframeC" },
     },
   },
+  experimental: {
+    renderJsonPayloads: false,
+  },
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {

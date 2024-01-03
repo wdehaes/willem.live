@@ -2,7 +2,7 @@
 title: "Shanghai: An Umbrella Story"
 navigation:
   id: shanghai
-  description: Three years ago, I had the opportunity to study a semester abroad in Shanghai. My schedule gave me time to explore the city and keep a blog about my experience,
+  description: Three years ago, I had the opportunity to study a semester abroad in Shanghai...
   width: 2
   tag: personal
   order: 1
@@ -10,7 +10,7 @@ navigation:
 
 ::header-c
 #image
-:img-c{name="thumbnail.jpeg" project="shanghai" bottom-margin="mb-3"}
+:img-c{name="header.jpeg" project="shanghai" bottom-margin="mb-3"}
 
 #title
 {{ $doc.title }}

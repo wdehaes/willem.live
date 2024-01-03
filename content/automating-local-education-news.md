@@ -2,14 +2,15 @@
 title: Automating Local Education News
 navigation:
   id: "automating-local-education-news"
-  description: Over the summer of 2019, I worked as a “local news automation fellow” for the Associated Press.
-  width: 2
+  description: Over the summer of 2019, I worked as a “local news automation fellow” for the Associated Press...
+  width: 1
   tag: "data"
   order: 1
 ---
 
 ::header-c
-:img-c{name="thumbnail" project="automating-local-education-news" bottom-margin="mb-3"}
+#image
+:img-c{name="logos.svg" project="automating-local-education-news" bottom-margin="mb-3"}
 
 #title
 {{ $doc.title }}

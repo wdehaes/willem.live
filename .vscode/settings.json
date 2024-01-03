@@ -2,7 +2,6 @@
     "editor.formatOnSave": true,
     "emmet.includeLanguages": {
         "vue-html": "html",
-        "vue": "html"
     },
     "files.exclude": {
         "**/.git": true,         // this is a default value

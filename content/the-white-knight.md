@@ -10,7 +10,7 @@ navigation:
 
 ::header-c
 #image
-:img-c{name="thumbnail" project="the-white-knight" bottom-margin="mb-3"}
+:img-c{name="thumbnail.jpeg" project="the-white-knight" bottom-margin="mb-3"}
 
 #title
 {{ $doc.title }}

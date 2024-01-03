@@ -9,7 +9,8 @@ navigation:
 ---
 
 ::header-c
-:img-c{name="thumbnail.jpeg" project="block"}
+#image
+:img-c{name="thumbnail" project="block" bottom-margin="mb-3"}
 
 #title
 BLOCK: Funding & Liquidity

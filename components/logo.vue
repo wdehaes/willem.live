@@ -39,7 +39,7 @@ const updateColorIndex = () => {
 
 const textSizeClass = computed(() => {
   return props.small
-    ? "text-9xl leading-none"
+    ? "text-7xl lg:text-9xl leading-none"
     : "text-[128px] lg:text-[250px] leading-[180px] lg:leading-[280px] ";
 });
 </script>
