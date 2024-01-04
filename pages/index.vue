@@ -37,9 +37,6 @@ const filteredNavigation = computed(() => {
       <p class="text-indigo-950 text-2xl font-semibold font-sans">
         willemdehaes@gmail.com
       </p>
-      <p class="text-indigo-950 text-2xl font-semibold font-sans">
-        917-443-7523
-      </p>
     </div>
     <div class="pr-8">
       <Logo />
