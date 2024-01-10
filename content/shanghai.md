@@ -10,7 +10,7 @@ navigation:
 
 ::header-c
 #image
-:img-c{name="header.jpeg" project="shanghai" bottom-margin="mb-3"}
+:img-c{name="thumbnail.jpeg" project="shanghai" bottom-margin="mb-3"}
 
 #title
 {{ $doc.title }}
@@ -26,7 +26,9 @@ With its many skyscrapers in the financial district and duck rows of container c
 
 On a surprisingly warm and sunny Sunday in October, I was strolling through the north side of the park with my parents, who had come to visit me during my stay. Suddenly, we saw something strange: hundreds of open umbrellas, one after the other in neat rows on both sides of the path. Behind every other umbrella there were elderly men and women sitting on little stools or wooden crates. At first, we had the absurd idea we might have hit upon the world’s largest and most bizarre umbrella market, but then we noticed that each umbrella wasn’t only too worn-out and broken to be on sale, even for a second-hand market, but also had a note attached to it. While the writing on the notes was in Chinese, the message couldn’t be clearer: the merchandise here wasn’t umbrellas, but the sons and daughters of the people sitting behind them.
 
-Our Sunday walk had inadvertently brought my parents and me to one of Shanghai’s most curious phenomena, the Rénmín Gōngyuán Xiāngqīn Jiǎo , or Shanghai marriage market. Every weekend, hundreds of parents flock to the market to find a potential match for their children. For a small fee, they can advertise their offspring. These advertisements are practical and down-to-earth: height, weight and salary are prominently featured, as well as the possession of a car or an apartment. Another crucial element in any ad is the zodiac sign, which needs to be in tune with that of a potential match. Other parents walk between the umbrellas, carefully studying the ads. If there is mutual interest, parents exchange contact information and arrange a date for their children. For those willing to pay an extra fee, professional matchmakers can speed up the process.
+Our Sunday walk had inadvertently brought my parents and me to one of Shanghai’s most curious phenomena, the Rénmín Gōngyuán Xiāngqīn Jiǎo, or Shanghai marriage market. Every weekend, hundreds of parents flock to the market to find a potential match for their children. For a small fee, they can advertise their offspring. These advertisements are practical and down-to-earth: height, weight and salary are prominently featured, as well as the possession of a car or an apartment. Another crucial element in any ad is the zodiac sign, which needs to be in tune with that of a potential match. Other parents walk between the umbrellas, carefully studying the ads. If there is mutual interest, parents exchange contact information and arrange a date for their children. For those willing to pay an extra fee, professional matchmakers can speed up the process.
+
+:img-c{name="market.jpeg" project="shanghai" bottom-margin="mb-0"}
 
 The popularity of the Shanghai marriage market seems like an anachronism in the most modern and progressive metropolis in China, but on a closer look, it is a strangely appropriate symbol of the constant tension between the old and the new. Most young adults in Shanghai prefer to focus on their career rather than marriage, but the older generations still see it as a the important goal in life, especially for women. As a result, children are reluctant to be advertised on this market, so some of their desperate parents even resort to stealing pictures and advertising their offspring without their consent, which explains why many people were angry when we tried to take pictures. What if their offspring found out?
 

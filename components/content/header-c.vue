@@ -1,6 +1,6 @@
 <template>
   <header class="flex flex-row justify-center">
-    <div class="flex flex-col basis-8/12 grow lg:grow-0">
+    <div class="flex flex-col items-center basis-8/12 grow lg:grow-0">
       <slot name="image" />
       <HorizontalLine class="mb-3" />
       <h1

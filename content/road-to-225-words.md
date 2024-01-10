@@ -10,7 +10,7 @@ navigation:
 
 ::header-c
 #image
-:img-c{name="steno.jpeg" project="road-to-225-words" bottom-margin="mb-3"}
+:img-c{name="thumbnail" project="road-to-225-words" bottom-margin="mb-3"}
 
 #title
 {{ $doc.title }}
@@ -23,6 +23,7 @@ REPORTING
 ::
 
 ::body-c
+
 DO YOU ENJOY TEACHING?
 
 I love teaching. I love sharing my knowledge and everything. It’s one of the beauties of the job when you can share your knowledge with a new student that can absorb it.

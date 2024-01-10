@@ -6,7 +6,7 @@ const projectId = route.path.split("/")[1];
 
 <template>
   <div
-    class="flex flex-row justify-between my-6 lg:mb-11 lg:mt-[90px] items-end"
+    class="flex flex-row justify-between my-6 lg:mb-11 lg:mt-[90px] items-center"
   >
     <div class="flex flex-row items-center">
       <svg
