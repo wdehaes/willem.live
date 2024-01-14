@@ -11,8 +11,8 @@ const content = ref<HTMLDialogElement>();
 
 const fontWeight = (filter: Filter) => {
   return filter === unref(activeFilter)
-    ? "font-extrabold text-3xl"
-    : "font-semibold text-[28px]";
+    ? "font-extrabold-wide text-3xl"
+    : "font-semibold-wide text-[28px]";
 };
 
 const showDialog = (val: boolean) => {
@@ -49,7 +49,7 @@ watch(activeFilter, (newActiveFilter) => {
   <div class="flex lg:hidden flex-col items-start w-full">
     <div class="flex w-full flex-row justify-between items-center mb-6">
       <button
-        class="font-extrabold text-3xl text-indigo-950 font-sans leading-7 flex-none"
+        class="font-extrabold-wide text-3xl text-indigo-950 font-sans leading-7 flex-none"
         @click="showDialog(true)"
       >
         {{ activeFilter }}
@@ -72,7 +72,7 @@ watch(activeFilter, (newActiveFilter) => {
     </div>
     <div class="flex mb-6">
       <span
-        class="text-right text-indigo-950 text-[28px] leading-7 font-semibold font-sans"
+        class="text-right text-indigo-950 text-[28px] leading-7 font-semibold-wide font-sans"
       >
         <a href="/pdf/Resume Willem Dehaes.pdf" target="_blank"
           >Resume // PDF</a
@@ -95,7 +95,7 @@ watch(activeFilter, (newActiveFilter) => {
         </button>
       </template>
       <button
-        class="text-indigo-950 font-sans leading-none flex-none font-semibold text-[28px]"
+        class="text-indigo-950 font-sans leading-none flex-none font-semibold-wide text-[28px]"
         @click="showDialog(false)"
       >
         Close
@@ -117,7 +117,7 @@ watch(activeFilter, (newActiveFilter) => {
     </div>
     <div class="flex flex-row basis-5/12 justify-end">
       <span
-        class="text-right text-indigo-950 text-[28px] leading-7 font-semibold font-sans"
+        class="text-right text-indigo-950 text-[28px] leading-7 font-semibold-wide font-sans"
       >
         <a href="/pdf/Resume Willem Dehaes.pdf" target="_blank"
           >Resume // PDF</a

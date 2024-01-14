@@ -31,7 +31,7 @@ const filteredNavigation = computed(() => {
     class="flex flex-row flex-wrap-reverse justify-between my-4 lg:mb-14 lg:mt-[90px] items-center"
   >
     <div>
-      <p class="text-indigo-950 text-3xl font-extrabold font-sans">
+      <p class="text-indigo-950 text-3xl font-extrabold-wide font-sans">
         Willem Dehaes
       </p>
       <p class="text-indigo-950 text-2xl font-semibold font-sans">
