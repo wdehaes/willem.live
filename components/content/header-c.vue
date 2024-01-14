@@ -1,10 +1,12 @@
 <template>
   <header class="flex flex-row justify-center">
-    <div class="flex flex-col items-center basis-8/12 grow lg:grow-0">
-      <slot name="image" />
+    <div class="flex flex-col items-start basis-8/12 grow lg:grow-0">
+      <div class="self-center">
+        <slot name="image" />
+      </div>
       <HorizontalLine class="mb-3" />
       <h1
-        class="text-indigo-950 text-2xl font-extrabold font-sans leading-7 mb-3"
+        class="text-indigo-950 text-2xl font-extrabold-wide font-sans leading-7 mb-3"
       >
         <slot name="title" />
       </h1>

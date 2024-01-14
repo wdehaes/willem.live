@@ -10,7 +10,7 @@ navigation:
 
 ::header-c
 #image
-:img-c{name="logos.svg" project="automating-local-education-news" bottom-margin="mb-3"}
+:img-c{name="thumbnail" project="automating-local-education-news" bottom-margin="mb-3"}
 
 #title
 {{ $doc.title }}
@@ -24,6 +24,8 @@ DATA
 ::body-c
 
 The fellowship had a dual goal: building a software prototype that could automate stories on the education beat, and developing a news automation blueprint for the Associated Press and the local news outlets in its network.Together with my co-fellow, Sam Moghadam, I worked from the AP’s HQ in downtown Manhattan, but we were piloting the project 40 miles to the east, at Long Island’s largest newspaper, Newsday. What follows is a brief description of the process and outcome.
+
+:img-c{name="logos.svg" project="automating-local-education-news" bottom-margin="mb-3"}
 
 ::section-title{:n=1}
 Scoping the project

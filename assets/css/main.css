@@ -32,3 +32,18 @@
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 300;
 }
 
+.font-extrabold-wide {
+    font-variation-settings: "slnt" 0, "wdth" 125, "wght" 800;
+}
+
+.font-semibold-wide {
+    font-variation-settings: "slnt" 0, "wdth" 125, "wght" 600;
+}
+.font-normal-wide {
+    font-variation-settings: "slnt" 0, "wdth" 125, "wght" 400;
+}
+
+.font-light-wide {
+    font-variation-settings: "slnt" 0, "wdth" 125, "wght" 300;
+}
+

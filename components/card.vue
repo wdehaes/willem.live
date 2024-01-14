@@ -35,7 +35,7 @@ const imageName = computed(() => {
     <NuxtLink :to="`/${project.id}`">
       <ImgC :name="imageName" :project="project.id" bottom-margin="mb-4" />
       <p
-        class="text-indigo-950 text-2xl font-extrabold font-sans leading-7 mb-2"
+        class="text-indigo-950 text-2xl font-extrabold-wide font-sans leading-7 mb-2"
       >
         {{ project.title }}
       </p>

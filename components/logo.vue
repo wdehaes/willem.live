@@ -22,12 +22,12 @@ const textSizeClass = computed(() => {
   <div class="flex flex-row justify-center items-center">
     <NuxtLink to="/">
       <span
-        class="font-normal font-rock transition-colors"
+        class="font-normal font-rock transition-colors duration-300"
         :class="[activeW, textSizeClass]"
         >W</span
       >
       <span
-        class="font-normal font-rock transition-colors"
+        class="font-normal font-rock transition-colors duration-300"
         :class="[activeD, textSizeClass]"
         >D</span
       >
